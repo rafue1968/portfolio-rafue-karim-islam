@@ -1,10 +1,11 @@
 "use client";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import ShowProjects from "./components/ShowProjects";
-import Contact from "./components/Contact";
+import Hero from "./components/Hero.jsx";
+import Footer from "./components/Footer.jsx";
+import AboutMe from "./components/AboutMe.jsx";
+import Skills from "./components/Skills.jsx";
+import ShowProjects from "./components/ShowProjects.jsx";
+import Contact from "./components/Contact.jsx";
+
 
 export default function Home() {
   const projectList = [
