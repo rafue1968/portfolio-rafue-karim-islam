@@ -2,10 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRouter, redirect } from "next/navigation";
 
 export default function Hero() {
-  const router = useRouter();
 
   return (
     <motion.section
