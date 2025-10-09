@@ -5,7 +5,6 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import ShowProjects from "./components/ShowProjects";
 import Contact from "./components/Contact";
-import { useEffect, useState } from "react";
 
 export default function Home() {
   const projectList = [
@@ -17,7 +16,12 @@ export default function Home() {
     {
       id: 1,
       name: "Sleeping AI",
-      description: ""
+      description: "Developed a wellbeing-focused web application that uses generative AI to create personalised bedtime stories based on users’ selected genres or original ideas. The system allows users to read their generated stories and listen to them through an integrated text-to-speech narration feature, promoting relaxation and creativity before sleep."
+    },
+    {
+      id: 2,
+      name: "Gaming Tournament Management System",
+      description: "This project involved developing a web application using React that allows university students and other users to search for, register, and manage their participation in gaming tournaments."
     }
   ]
   

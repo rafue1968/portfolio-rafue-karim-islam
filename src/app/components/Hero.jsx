@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { useRouter, redirect } from "next/navigation";
 
 export default function Hero() {
   const router = useRouter();
@@ -31,10 +31,15 @@ export default function Hero() {
             Full Stack Developer
           </p>
           <button
-            // onClick={() => router.push("/projects")}
             className="hero-button"
           >
-            View My Work
+            <a 
+            href="https://www.linkedin.com/in/rafue-karim-islam-887a2b216"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+                View My LinkedIn
+            </a>
           </button>
         </div>
       </div>
