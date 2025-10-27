@@ -6,7 +6,7 @@ export default function ShowProjects({projectlist=[]}){
             <div className="showProjectsList-grid">
                 {projectlist.map((project) => (
                     
-                    <div className="project-card" key={project.id}>
+                    <div className="project-card" key={project.id} onClick={() => window.open(project.link, '_blank')} style={{cursor: "pointer"}}>
                         <h2 className="project-title">{project.name}</h2>
                         <p>{project.description}</p>
                     </div>

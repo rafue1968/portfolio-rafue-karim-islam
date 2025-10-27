@@ -26,7 +26,7 @@ export default function Hero() {
             Hi, I'm <span>Rafue Karim Islam</span>
           </h1>
           <p className="hero-subtitle">
-            Full Stack Developer
+            Software Engineer
           </p>
           <button
             className="hero-button"
